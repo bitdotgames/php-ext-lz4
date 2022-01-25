@@ -17,6 +17,7 @@ jobs:
           - x64
           - x86
         ts:
+          - 'nts'
           - 'ts'
         vc:
           - vs16
