@@ -13,12 +13,10 @@ jobs:
         php:
           - '8.0'
           - '7.4'
-          - '7.3'
         arch:
           - x64
           - x86
         ts:
-          - 'nts'
           - 'ts'
         vc:
           - vs16
@@ -35,8 +33,6 @@ jobs:
           - php: '8.0'
             vc: vc15
           - php: '7.4'
-            vc: vs16
-          - php: '7.3'
             vc: vs16
 
     runs-on: ${{ matrix.os }}
